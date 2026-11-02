@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and IDEs
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+
+# Local credentials, users and logs
+pool_users.db
+*.db-journal
+*.log
+*.bak
+*.lnk
+
+# Local datasets and media
+datasets/
+self-made dataset/
+data/images/
+data/video/
+*.mp4
+*.avi
+
+# Training and inference outputs
+runs/**
+!runs/train/
+!runs/train/exp/
+!runs/train/exp/weights/
+!runs/train/exp/weights/best.pt
+inference/
+outputs/
+pool_alert_*.jpg
+pool_alert_*.png
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

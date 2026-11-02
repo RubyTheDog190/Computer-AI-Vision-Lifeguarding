@@ -1,0 +1,9 @@
+# Dataset root is resolved relative to this YAML file.
+# Keep the large dataset outside Git history under <repo>/datasets/pool.
+path: ../datasets/pool
+train: images/train
+val: images/val
+test: images/test
+
+nc: 3
+names: ['swimming', 'tread water', 'drowning']
